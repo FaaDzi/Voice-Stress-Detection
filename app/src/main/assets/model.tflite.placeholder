@@ -1,0 +1,9 @@
+Place your model.tflite and scaler_values.json files in this directory before building.
+
+Expected format:
+  model.tflite       — TensorFlow Lite model (float32 input, softmax output)
+  scaler_values.json — {"mean": [...], "scale": [...]} arrays matching model input size
+
+The app will auto-detect the model's input feature size and adjust the audio feature
+extraction pipeline accordingly. Output class labels default to:
+  ["Angry", "High Stress", "Low Stress", "Neutral", "Soft"]

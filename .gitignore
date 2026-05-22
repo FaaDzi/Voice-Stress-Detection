@@ -1,0 +1,41 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Gradle caches
+/.gradle-user/
+/.gradle-user-chaquopy/
+/.gradle-user-final/
+/.gradle-user-stability/
+/.gradle-user-sync/
+
+# Vendor / local build artifacts
+/vendor/
+
+# Temp planning files
+UI_BRIEF_TEMP.md
+*.zip
+
+# Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Nested IDE dirs
+app/src/main/.idea/
+
+# Proprietary trained model assets — do not commit
+app/src/main/assets/model.tflite
+app/src/main/assets/model_old.tflite
+app/src/main/assets/model.enc
+app/src/main/assets/scaler_values.json
+
+# Development backup snapshots
+/backups/

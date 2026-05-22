@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "name": "model.tflite",
+      "localAsset": "model.enc",
+      "remotePath": "model.tflite",
+      "required": true
+    },
+    {
+      "name": "scaler_values.json",
+      "localAsset": "scaler_values.json",
+      "remotePath": "scaler_values.json",
+      "required": true
+    }
+  ]
+}
